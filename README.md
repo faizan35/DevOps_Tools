@@ -2,7 +2,7 @@
 
 A repository providing an overview of popular DevOps tools categorized for different stages of the software development lifecycle.
 
-## Version Control:
+## Version Control :
 
 - Git
 - GitHub
