@@ -322,35 +322,31 @@ Keep in mind that priorities can vary based on specific project requirements and
 
 ---
 
-```diff
-+--------------------------+-----------------------------+-----------------------------+
-| High Priority Concepts  | High Priority Tools        | Medium Priority Concepts       |
-+--------------------------+-----------------------------+-----------------------------+
-| 1. Continuous Integration| Source Code Management     | 1. Microservices Architecture |
-| 2. Version Control       | Build and Automation       | 2. Artifact Management        |
-| 3. Containerization...   | Containerization...        | 3. Build and Automation       |
-| 4. Infrastructure as Code| Continuous Integration...  | 4. Configuration Management   |
-| 5. Collaboration...      | Infrastructure as Code...  | 5. Testing                    |
-| 6. Monitoring and Logging | Monitoring and Logging... | 6. Continuous Deployment      |
-| 7. Continuous Delivery... | Collaboration and...      |                               |
-| 8. Security               | Testing                   |                               |
-+--------------------------+-----------------------------+-----------------------------+
+### **Focus More:**
 
-+-----------------------------+-----------------------------+-----------------------------+
-| High Priority Tools         | Medium Priority Tools        | Lower Priority Concepts     |
-+-----------------------------+-----------------------------+-----------------------------+
-| 1. Source Code Management   | 1. Microservices Architecture| 1. Performance Monitoring   |
-| 2. Build and Automation     | 2. Artifact Management       | 2. Serverless Computing     |
-| 3. Containerization...      | 3. Build and Automation      |                             |
-| 4. Continuous Integration...| 4. Configuration Management  |                             |
-| 5. Infrastructure as Code...| 5. Testing                   |                             |
-| 6. Monitoring and Logging...| 6. Continuous Deployment     |                             |
-| 7. Collaboration and...     |                              |                             |
-| 8. Testing                  |                              |                             |
-| 9. Continuous Delivery...   |                              |                             |
-| 10. Security                |                              |                             |
-+-----------------------------+-----------------------------+-----------------------------+
-```
+1. **Continuous Integration (CI):** Streamlines code integration, catches issues early, and fosters agile development.
+2. **Version Control (Git/GitHub):** Essential for collaboration, tracking changes, and maintaining a versioned codebase.
+3. **Containerization and Orchestration (Docker, Kubernetes):** Ensures consistent, scalable deployments across environments.
+4. **Infrastructure as Code (IaC - Terraform):** Automates and standardizes infrastructure provisioning for consistency.
+5. **Collaboration and Communication (Slack, Microsoft Teams):** Facilitates efficient team communication and collaboration.
+6. **Monitoring and Logging (Prometheus, Grafana):** Provides real-time visibility for issue identification and resolution.
+7. **Continuous Delivery Platforms (Spinnaker):** Automates and streamlines the application delivery process.
+8. **Security (SonarQube, OWASP ZAP):** Ensures code integrity and identifies security vulnerabilities.
+9. **Source Code Management (Git, GitHub):** Industry-standard tools for version control and collaboration.
+10. **Containerization (Docker):** Essential for packaging and running applications consistently.
+
+### **Focus Less:**
+
+1. **Microservices Architecture:** Valuable but may not be universally applicable initially.
+2. **Artifact Management (Nexus, JFrog Artifactory):** Explore as needed based on project complexity.
+3. **Build and Automation Tools (Maven, Gradle):** Secondary to mastering Jenkins for CI/CD.
+4. **Configuration Management (Ansible):** Important but of lower priority depending on project scale.
+5. **Testing (JUnit, TestNG):** Secondary to mastering Selenium for web application testing.
+6. **Continuous Deployment:** Considered of medium priority based on organizational policies.
+7. **Performance Monitoring Tools (AppDynamics, Dynatrace):** Lower priority for smaller projects.
+8. **Serverless Computing (AWS Lambda):** Explore as needed, focusing on core concepts initially.
+9. **Collaborative Development (Jira):** Important for project management but may be explored as needed.
+10. **Cloud Platforms (AWS):** Explore as needed based on project and career requirements.
 
 ---
 
